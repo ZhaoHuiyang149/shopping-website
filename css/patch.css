@@ -1,0 +1,47 @@
+.sw-header-input {
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+}
+.sw-header-badge {
+  height: 12px;
+  line-height: 12px;
+  top: -4px;
+  left: 0;
+}
+.sw-header-menu-icon {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.layui-carousel {
+  background-color: #fff;
+}
+.layui-carousel-ind li.layui-this {
+  background-color: #db192a;
+}
+.sw-sidebar-icon {
+  position: absolute;
+  right: 15px;
+  color: #fff;
+}
+.sw-offside-tab-title {
+  height: 24px;
+}
+.sw-offside-tab-title li {
+  min-width: 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.sw-offside-tab-title .layui-this:after {
+  height: 25px;
+}
+.sw-offside .layui-tab-brief >.layui-tab-title .layui-this {
+  color: #FF5722;
+}
+.sw-offside .layui-tab-brief >.layui-tab-title .layui-this:after {
+  border-bottom: 2px solid #FF5722;
+}
+.sw-offside-tab .layui-tab-content {
+  max-height: 115px;
+  overflow-y: hidden;
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物网站首页</title>
+    <link type="text/css" rel="stylesheet" href="css/lzx.base.css">
+    <link type="text/css" rel="stylesheet" href="js/layui/css/layui.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/patch.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/layui.all.js"></script>
+</head>
+<body>
+    <div class="sw-header">
+        <div class="sw-header-main clearfix">
+            <a class="sw-header-logo fl" href="#">
+                <img src="img/logo.png">
+            </a>
+            <div class="sw-header-search fl">
+                <input class="layui-input sw-header-input" placeholder="请输入商品名称">
+                <i class="layui-icon sw-header-icon">&#xe615;</i>
+            </div>
+            <ul class="sw-header-menu fr">
+                <li class="sw-header-menu-li">您好，洋洋149</li>
+                <li class="sw-header-menu-li">我的订单</li>
+                <li class="sw-header-menu-li-more">
+                    <div class="sw-header-menu-more-content">我的京东<i class="layui-icon sw-header-menu-icon">&#xe61a;</i></div>
+                    <div class="sw-header-submenus">
+                        <div class="sw-header-submenu">
+                            <div class="sw-header-submenu-item">待处理订单
+                                <span class="layui-badge sw-header-badge">6</span>
+                            </div>
+                            <div class="sw-header-submenu-item">消息
+                                <span class="layui-badge sw-header-badge">6</span>
+                            </div>
+                            <div class="sw-header-submenu-item">返修退换货</div>
+                            <div class="sw-header-submenu-item">我的问答</div>
+                            <div class="sw-header-submenu-item">降价商品</div>
+                        </div>
+                        <div class="sw-header-submenu">
+                            <div class="sw-header-submenu-item">我的京豆</div>
+                            <div class="sw-header-submenu-item">我的理财</div>
+                            <div class="sw-header-submenu-item">我的白条</div>
+                            <div class="sw-header-submenu-item">我的优惠券</div>
+                        </div>
+                        <div class="sw-header-submenu-footprints">
+                            <div class="sw-submenu-footprints-titles">
+                                <span class="sw-submenu-footprints-title">我的足迹</span>
+                                <a class="sw-submenu-footprints-more fr" href="#">更多 ></a>
+                            </div>
+                            <div class="sw-submenu-footprints-content">
+                                <img class="sw-submenu-footprints-img" src="img/icon/icon-header-submenu1.jpg" alt="心相印厨房用纸" title="心相印厨房用纸">
+                                <img class="sw-submenu-footprints-img" src="img/icon/icon-header-submenu2.jpg" alt="半透明磨砂成人雨衣" title="半透明磨砂成人雨衣">
+                                <img class="sw-submenu-footprints-img" src="img/icon/icon-header-submenu3.jpg" alt="爱普生GPS运动腕表" title="爱普生GPS运动腕表">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sw-header-menu-li">购物车<span class="layui-badge sw-header-badge">99+</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sw-body">
+        <div class="sw-content">
+            <div class="layui-tab sw-middle">
+                <ul class="layui-tab-title sw-middle-tab">
+                    <li class="layui-this">首页</li>
+                    <li>推荐品牌</li>
+                    <li>女装</li>
+                    <li>男装</li>
+                    <li>鞋包服饰</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <div class="layui-carousel" id="sw-body-img">
+                            <div carousel-item>
+                                <div>
+                                    <img src="img/body-img1.jpg">
+                                </div>
+                                <div>
+                                    <img src="img/body-img2.jpg">
+                                </div>
+                                <div>
+                                    <img src="img/body-img3.jpg">
+                                </div>
+                                <div>
+                                    <img src="img/body-img4.jpg">
+                                </div>
+                                <div>
+                                    <img src="img/body-img5.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sw-body-middle-imgs clearfix">
+                        <img src="img/body-middle-img1.jpg" class="sw-body-middle-img fl">
+                        <img src="img/body-middle-img2.jpg" class="fl">
+                    </div>
+                </div>
+            </div>
+            <div class="sw-sidebar">
+                <div class="sw-sidebar-titles">
+                    <img src="img/icon/icon-sidebar-item.png">
+                    <span class="sw-sidebar-title">商品分类</span>
+                </div>
+                <ul class="sw-navbar">
+                    <li class="sw-navitems">
+                        <div>
+                            <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                            <a class="sw-navitem" href="#">家用电器</a>
+                        </div>
+                        <div class="sw-navitem-detail">
+                            <div class="sw-navitem-detail-labels">
+                                <span class="sw-navitem-detail-label">家电馆 ></span>
+                                <span class="sw-navitem-detail-label">乡镇专卖店 ></span>
+                                <span class="sw-navitem-detail-label">家电服务 ></span>
+                                <span class="sw-navitem-detail-label">家电馆 ></span>
+                                <span class="sw-navitem-detail-label">乡镇专卖店 ></span>
+                                <span class="sw-navitem-detail-label">家电服务 ></span>
+                            </div>
+                            <div class="sw-navitem-detail-contents">
+                                <div class="sw-navitem-detail-content">
+                                    <span class="sw-navitem-detail-title">电视电视 ></span>
+                                    <div class="sw-navitem-detail-spans">
+                                        <span class="sw-navitem-detail-span">曲面电视</span>
+                                        <span class="sw-navitem-detail-span">超薄电视</span>
+                                        <span class="sw-navitem-detail-span">HDR电视</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sw-navitem-detail-contents">
+                                <div class="sw-navitem-detail-content">
+                                    <span class="sw-navitem-detail-title">电视 ></span>
+                                    <div class="sw-navitem-detail-spans">
+                                        <span class="sw-navitem-detail-span">曲面电视</span>
+                                        <span class="sw-navitem-detail-span">超薄电视</span>
+                                        <span class="sw-navitem-detail-span">HDR电视</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sw-navitem-detail-contents">
+                                <div class="sw-navitem-detail-content">
+                                    <span class="sw-navitem-detail-title">电视电视 ></span>
+                                    <div class="sw-navitem-detail-spans">
+                                        <span class="sw-navitem-detail-span">曲面电视</span>
+                                        <span class="sw-navitem-detail-span">超薄电视</span>
+                                        <span class="sw-navitem-detail-span">HDR电视</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sw-navitem-detail-contents">
+                                <div class="sw-navitem-detail-content">
+                                    <span class="sw-navitem-detail-title">电视电视 ></span>
+                                    <div class="sw-navitem-detail-spans">
+                                        <span class="sw-navitem-detail-span">曲面电视</span>
+                                        <span class="sw-navitem-detail-span">超薄电视</span>
+                                        <span class="sw-navitem-detail-span">HDR电视</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">手机通讯</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">鞋靴箱包</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">数码影音</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">男装/女装/童装/内衣</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">居家生活/家装建材</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">男鞋/女鞋/钟表/珠宝</a>
+                    </li>
+                    <li class="sw-navitems">
+                        <i class="layui-icon sw-sidebar-icon">&#xe602;</i>
+                        <a class="sw-navitem" href="#">母婴/玩具乐器</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sw-offside">
+                <div class="sw-offside-title clearfix">
+                    <div class="sw-offside-login-imgs fl">
+                        <img src="img/icon/icon-login.jpg" class="sw-offside-login-img">
+                    </div>
+                    <div class="sw-offside-login-informations fl">
+                        <div class="sw-offside-login-information">Hi,洋洋149</div>
+                        <div class="sw-offside-login-information">
+                            <span class="sw-offside-login-state">已登录</span>
+                            <span class="sw-offside-login-state">退出</span>
+                        </div>
+                    </div>
+                    <div class="sw-offside-tags fl">
+                        <span class="sw-offside-tag">新人福利</span>
+                        <span class="sw-offside-tag">会员专享</span>
+                    </div>
+                </div>
+                <div class="layui-tab layui-tab-brief sw-offside-tab" lay-filter="docDemoTabBrief">
+                    <ul class="layui-tab-title sw-offside-tab-title">
+                        <li class="layui-this">促销</li>
+                        <li>公告</li>
+                    </ul>
+                    <div class="sw-offside-more fr">更多</div>
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <ul class="sw-offside-tab-items">
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">永辉全球购开业钜惠</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">家纺跨店满199减40</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">超市爆款两件起五折</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">家纺跨店满199减40</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">超市爆款两件起五折</a></li>
+                            </ul>
+                        </div>
+                        <div class="layui-tab-item">
+                            <ul class="sw-offside-tab-items">
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">永辉全球购开业钜惠111</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">家纺跨店满199减40111</a></li>
+                                <li class="sw-offside-tab-item"><a href="#" class="sw-offside-tab-item-a">超市爆款两件起五折111</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sw-offside-uls">
+                    <ul class="sw-offside-ul">
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">话费</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">机票</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">酒店</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">游戏</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">企业购</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">加油卡</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">电影票</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">火车票</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">众筹</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">理财</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">礼品卡</span>
+                            </a>
+                        </li>
+                        <li class="sw-offside-li">
+                            <a class="sw-offside-li-link">
+                                <i class="layui-icon sw-offside-li-icon">&#xe63b;</i>
+                                <span class="sw-offside-li-item">白条</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sw-downside">
+                <div class="sw-downside-title clearfix">
+                    <div class="sw-downside-title-lefts fl">
+                        <img src="img/body-downside-time.png">
+                        <span class="sw-downside-title-left">京东秒杀</span>
+                        <span class="sw-downside-title-left" style="font-size: 16px">总有你想不到的低价</span>
+                    </div>
+                    <div class="sw-downside-title-right fr">
+                        <span class="sw-downside-title-left" style="font-size: 16px">距离结束抢购只剩：</span>
+                        <span class="sw-downside-title-left" id="sw-downside-time">11</span>
+                    </div>
+                </div>
+                <div class="sw-downside-centre clearfix">
+                    <div class="sw-downside-centre-imgs fl">
+                        <div class="sw-downside-centre-img fl">
+                            <img src="img/body-downside-img1.jpg" alt="手表手表手表手表手表手表手表手表" title="手表手表手表手表手表手表手表手表">
+                            <span class="sw-downside-centre-img-title">手表手表手表手表手表手表</span>
+                            <span class="sw-downside-centre-img-price1">￥299.00</span>
+                            <span class="sw-downside-centre-img-price2">￥399.00</span>
+                        </div>
+                        <div class="sw-downside-centre-img fl">
+                            <img src="img/body-downside-img2.jpg" alt="新希望 香蕉牛奶饮品200ml*12盒（新老包装交替发货）" title="新希望 香蕉牛奶饮品200ml*12盒（新老包装交替发货）">
+                            <span class="sw-downside-centre-img-title">新希望 香蕉牛奶饮品200ml*12盒（新老包装交替发货）</span>
+                            <span class="sw-downside-centre-img-price1">￥56.30</span>
+                            <span class="sw-downside-centre-img-price2">￥66.30</span>
+                        </div>
+                        <div class="sw-downside-centre-img fl">
+                            <img src="img/body-downside-img3.jpg" alt="北极绒10双袜子男士长袜中筒袜子秋冬季透气吸汗运动男士商务休闲棉袜高筒春夏四季 65%纯棉 纯色中筒+菱格中筒10双" title="北极绒10双袜子男士长袜中筒袜子秋冬季透气吸汗运动男士商务休闲棉袜高筒春夏四季 65%纯棉 纯色中筒+菱格中筒10双">
+                            <span class="sw-downside-centre-img-title">北极绒10双袜子男士长袜中筒袜子秋冬季透气吸汗运动男士商务休闲棉袜高筒春夏四季 65%纯棉 纯色中筒+菱格中筒10双</span>
+                            <span class="sw-downside-centre-img-price1">￥46.90</span>
+                            <span class="sw-downside-centre-img-price2">￥56.90</span>
+                        </div>
+                        <div class="sw-downside-centre-img fl">
+                            <img src="img/body-downside-img4.jpg" alt="CCE冬款羊皮毛一体情侣雪地靴 保暖低筒男女靴短靴真皮靴1920 栗色 41 男款" title="CCE冬款羊皮毛一体情侣雪地靴 保暖低筒男女靴短靴真皮靴1920 栗色 41 男款">
+                            <span class="sw-downside-centre-img-title">CCE冬款羊皮毛一体情侣雪地靴 保暖低筒男女靴短靴真皮靴1920 栗色 41 男款</span>
+                            <span class="sw-downside-centre-img-price1">￥399.00</span>
+                            <span class="sw-downside-centre-img-price2">￥499.00</span>
+                        </div>
+                        <div class="sw-downside-centre-img fl">
+                            <img src="img/body-downside-img5.jpg" alt="魔铁/MOTIE led强光手电筒 直充电式防水防身远射 20种变焦 家用户外骑行应急灯 黑色标配 标配配电池送充电器" title="魔铁/MOTIE led强光手电筒 直充电式防水防身远射 20种变焦 家用户外骑行应急灯 黑色标配 标配配电池送充电器">
+                            <span class="sw-downside-centre-img-title">魔铁/MOTIE led强光手电筒 直充电式防水防身远射 20种变焦 家用户外骑行应急灯 黑色标配 标配配电池送充电器</span>
+                            <span class="sw-downside-centre-img-price1">￥199.00</span>
+                            <span class="sw-downside-centre-img-price2">￥259.00</span>
+                        </div>
+                    </div>
+                    <div class="layui-carousel sw-downside-centre-item fr" id="sw-downside-centre-item">
+                        <div carousel-item="">
+                            <div>
+                                <img src="img/body-downside-img6.jpg">
+                            </div>
+                            <div>
+                                <img src="img/body-downside-img7.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sw-footer"></div>
+</body>
+</html>
+<script>
+  layui.use('carousel', function(){
+    var carousel = layui.carousel;
+    carousel.render({
+      elem: '#sw-body-img',
+      width: '100%', //设置容器宽度
+      height: 340,  //设置容器高度
+      arrow: 'always', //始终显示箭头
+      anim: 'fade' //切换动画方式
+    });
+  });
+    $('#sw-downside-time').countdown('2017/11/23', function(event) {
+      $(this).html(event.strftime('%d 天 %H:%M:%S'));
+    });
+  layui.use('carousel', function(){
+    var carousel = layui.carousel;
+    carousel.render({
+      elem: '#sw-downside-centre-item',
+      width: 181, //设置容器宽度
+      height: 221,  //设置容器高度
+      arrow: 'none', //始终显示箭头
+      anim: 'fade' //切换动画方式
+    });
+  });
+</script>
+
